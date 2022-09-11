@@ -11,12 +11,12 @@ body {
 
 .container{
 	max-width: 1200px;
-	width: 90%
+	width: 90%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
-	flex: 1 100%;
+	
 }
 
 h1,
@@ -194,6 +194,11 @@ footer span {
 	width: 33%;
 	float: left;
 }
+}
+
+header nav {
+	padding: 46px;
+}
 
 .bottom-section .section-two {
 	border-left: 1px solid #eee;
@@ -213,7 +218,7 @@ footer span {
 .bottom-section .section-three p {
 		padding: 0 1.875em;
 }
-}
+
 
 
 /*****DESKTOP*****/
@@ -229,11 +234,18 @@ header h1 {
 }
 header nav {
 	float: right;
-	padding: 3.286em 0;			
+	padding: 2.875em 0;			
 	text-align: right;
+}
+
+header nav ul {
+	display: inline;
+	float: right;
+	margin: 0;
+	padding: 0;
 }
 header nav ul li {
 	display: inline;
-	padding: 0 .714em;			
+	padding: 0 .625em;			
 }
 }
